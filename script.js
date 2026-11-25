@@ -59,7 +59,7 @@ const sobraCookies = totalCookies % capacidadeCaixa;
    ========================================================================== */
 const idadeInformada = 17;
 
-
+console.log(oclienteatingiuamaioridadecivil?);
 
 
 
