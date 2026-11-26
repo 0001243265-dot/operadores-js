@@ -57,9 +57,17 @@ const sobraCookies = totalCookies % capacidadeCaixa;
    4. O tipo do dado digitado difere do tipo esperado no banco?
    5. O saldo do cliente cobre o valor da compra?
    ========================================================================== */
-const idadeInformada = 17;
+let idade = 17;
+let codigoDigitado = "100";
+const registradoBanco = 100;
+const saldoDisponivel = 250.00;
+const valorCompra = 250.00;
 
-console.log(oclienteatingiuamaioridadecivil?);
+console.log ("maioridade:" , idade>=18);
+console.log("Código confere (valor):", codigoDigitado == registradoBanco);
+console.log("codigo confere (valor e tipo):", codigoDigitado === registradoBanco);
+console.log("codigo difere ", codigoDigitado === registradoBanco);
+console.log("saldo cobre ", saldoDisponivel===valorCompra);
 
 
 
@@ -88,3 +96,13 @@ console.log(oclienteatingiuamaioridadecivil?);
    3. Acesso à área VIP: liberado para assinantes premium, ou para compras a
       partir de 300 reais que possuam cupom promocional.
    ========================================================================== */
+
+let valorCompra = 220;
+let assinantePremium = false;
+let cupomPromorcional = true; 
+let restricaoEntrega = false;
+let clienteEstudade = true;
+let idade = 22
+console.log("Frete grátis:", (valorCompra >= 200 || premium) && !restricaoEntrega);
+console.log("Desconto universitário:", estudante && idade <= 29);
+console.log("Acesso VIP:", premium || (valorCompra >= 300 && cupom));
